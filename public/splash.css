@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+*, html {
+ box-sizing: border-box;
+}
+
+*, *:before, *:after {
+ box-sizing: inherit;
+}
+body {
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+}
+header {
+  color: green;
+  text-align: center;
+}
+ul {
+  color: #008000;
+  background: #b3ffb3;
+  width: 100%;
+  margin: 0 auto 20px auto;
+}
+ul li {
+  display: inline-block;
+  font-size: 20px;
+  margin: 0 0px 0 140px;
+}
+li:hover {
+  color:#ffff4d;
+}
+.login {
+  width: 10%;
+  float: right;
+  margin: 0;
+}
+li a {
+  text-decoration: none;
+  color: #ff9999;
+  color: #008000;
+
+}
+.login a {
+  text-decoration: none;
+  color: #ff9999;
+}
+.login a:hover {
+  color:#ffff4d;
+}
+#timeTarget {
+  color: #3399ff;
+  margin-top: 20px;
+}
+hr {
+  width: 80%;
+}
+@media screen and (max-width:400px){
+  body {
+    background-color: #ffe6e6;
+    margin: 0;
+    padding: 0;
+  }
+  .page {
+    margin: -10px;
+  }
+  header {
+    font-size: 30px;
+  }
+  #timeTarget {
+    font-size: 22px;
+  }
+  ul {
+    color: #008000;
+    background: #b3ffb3;
+    width: 100%;
+    margin: 0 auto;
+  }
+  ul li {
+    display: block;
+    font-size: 30px;
+    margin: 10px auto 0 auto;
+    text-transform: capitalize;
+
+  }
+  li:hover {
+    color:#ffff4d;
+  }
+  .login {
+    display: block;
+    width: 100%;
+    margin:0 auto;
+    background-color: #b3ffb3;
+    padding: 5px;
+    font-size: 30px;
+    color: #ff9999;
+    text-transform: capitalize;
+  }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+
+}
